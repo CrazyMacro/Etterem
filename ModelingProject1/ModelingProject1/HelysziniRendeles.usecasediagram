@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="0f36b5dd-bfb9-441a-b1e3-aa3d9eedaea7" name="HelysziniRendeles" linkedPackageId="52bcdbc8-b60f-4caa-b973-fc68f6616449" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
-  <profileInstances>
-    <packageHasProfileInstances Id="d9529e81-06be-4882-bfc6-ac4205702a85">
-      <profileInstance Id="91614115-f6b6-40cd-8c56-c6871d5a5da2" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="20037a12-00ef-4aad-8cb7-ad92edd0a556">
-      <profileInstance Id="71309dc6-5b90-4599-bb20-010f0725e55f" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <useCaseModelRootHasTypes>
       <useCase Id="a8aa04e5-ac49-4a12-9047-a75e0b2c9a49" name="RendelU" isAbstract="false" isLeaf="false">
@@ -425,5 +411,19 @@
   </packagedElements>
   <package Id="52bcdbc8-b60f-4caa-b973-fc68f6616449" name="ModelingProject1">
     <elementDefinition Id="58387b23-f4d0-4cdc-9967-9843f8c7dc52" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d9529e81-06be-4882-bfc6-ac4205702a85">
+        <profileInstance Id="91614115-f6b6-40cd-8c56-c6871d5a5da2" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="20037a12-00ef-4aad-8cb7-ad92edd0a556">
+        <profileInstance Id="71309dc6-5b90-4599-bb20-010f0725e55f" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>
