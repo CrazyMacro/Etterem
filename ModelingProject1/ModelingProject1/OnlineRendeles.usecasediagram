@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="57eb25de-84bc-485b-b648-8d7592e24031" name="OnlineRendeles" linkedPackageId="91ff2fa0-6b76-4930-a178-91c0ab27cc99" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" name="Rendszer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="be803550-dc7b-4bb9-a3fd-9158fb2a143f" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="8c767fa0-01da-4992-861f-d1f30e84f138" name="VendegA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cc77c25a-cdbf-4fbe-a216-92582c07a993" />
+        <targetEnds>
+          <association Id="de0248b3-7fa6-46f9-a2b5-5a1f80dce5da" isDerived="false" sourceEndRoleName="VendegA" targetEndRoleName="RendelU" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f502fdbc-c7aa-488c-ac88-2c51c2f69a85" LastKnownName="RendelU" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c5df186-7377-49dc-8ca6-ddbd05eedb2e" name="VendegA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cc20ce79-0311-4cef-8092-9aa9a4f8de5b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7b2410c2-9d7c-4a48-b1c4-1e52a4b2670a" name="RendelU" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="99cf476c-c575-4b3f-9a76-ee23d45db29a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="551d68d7-488c-40a7-acbe-fe2b6bbe5b9f" />
+          </association>
+          <association Id="8ffcaff5-a398-4910-bf75-38f03648e941" isDerived="false" sourceEndRoleName="VendegA" targetEndRoleName="ElfogyasztU" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7acca309-3b97-46a1-8d85-540b640cf269" LastKnownName="ElfogyasztU" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="63ba97c5-70d1-4555-8226-93be45510ef8" name="VendegA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ff77bf71-cd01-4659-ba2f-6b673a6a994d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4f01be08-d62f-4fac-a6e7-a9149758d7b8" name="ElfogyasztU" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7c8d2453-db2d-4f3e-8b3c-9ad566cae273" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f1aaa2b9-b48f-43b7-a7be-46f026e196b8" />
+          </association>
+          <association Id="6e06024f-9b6b-4605-94d1-d4361d4581e2" isDerived="false" sourceEndRoleName="VendegA" targetEndRoleName="RegisztracioU" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="00364809-2db8-48b8-a4c6-8431c98a21e7" LastKnownName="RegisztracioU" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fd79a721-6a79-4d7e-b560-c7d05b1f9736" name="VendegA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="88e9f377-1508-45e0-bce6-a16aca6f0abf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f9f6781b-6ca0-4290-8429-d0260b4bc056" name="RegisztracioU" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="21f2b335-6c1c-4166-b466-60488409422e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fe2e0e08-3aef-4b79-97ec-2efb45bf994b" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7acca309-3b97-46a1-8d85-540b640cf269" name="ElfogyasztU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6943c14e-1c96-44f5-8da7-831dc9e67dfa" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="f502fdbc-c7aa-488c-ac88-2c51c2f69a85" name="RendelU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cf5ea792-72c1-4a9b-ac1c-936b8b0321d0" />
+        <additions>
+          <include Id="d5d33974-861b-4288-a7e9-bc87c70fe08e">
+            <useCaseMoniker Id="7471cc86-6c2d-4213-af18-90459d972803" LastKnownName="BejelentkezesU" />
+            <elementDefinition Id="dc1694ff-b011-4111-92ab-e75cd774b151" />
+          </include>
+          <include Id="e93bed22-0c4c-498e-8c0c-e42b0a111b54">
+            <useCaseMoniker Id="c35da72d-162a-4f31-8cc4-b8686d1c8016" LastKnownName="EtteremValasztasU" />
+            <elementDefinition Id="df9c2261-846c-42b2-9fc7-8a557b0e4c48" />
+          </include>
+          <include Id="d1fd6d82-d799-4ed0-9397-dc9cacd76ebc">
+            <useCaseMoniker Id="ba6a11ad-63d9-48d6-8e05-3d8b7bcec6b0" LastKnownName="SzallitasiAdatokMegadasaU" />
+            <elementDefinition Id="d53fc6ae-b172-4e56-8bdb-9a82334c442a" />
+          </include>
+          <include Id="107769e4-17b4-437f-9412-d7c6fc72bd27">
+            <useCaseMoniker Id="5642f334-ecb1-4dad-bcd1-3490b5d51c32" LastKnownName="FizetesiAdatokMegadasaU" />
+            <elementDefinition Id="c40b1c42-3479-4b1b-934d-086c6242005a" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7471cc86-6c2d-4213-af18-90459d972803" name="BejelentkezesU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e57ec8b5-07f2-44f7-8c45-c83b073492b7" />
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="00364809-2db8-48b8-a4c6-8431c98a21e7" name="RegisztracioU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9aa5cec3-03fa-45c4-bffd-733ec3d78faf" />
+        <extendedCases>
+          <extend Id="1d15d822-2e9d-499b-bf18-847541a1958a">
+            <useCaseMoniker Id="7471cc86-6c2d-4213-af18-90459d972803" LastKnownName="BejelentkezesU" />
+            <elementDefinition Id="c848225e-56f6-4599-9287-770d7575f081" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="666e9bee-df9e-42f4-a7c2-0146b851ecd5" name="EtteremA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="59818886-1aad-4ec7-9147-eb38379b1cdb" />
+        <targetEnds>
+          <association Id="b0e1e3ab-5418-476b-84b5-d4dd52b57561" isDerived="false" sourceEndRoleName="EtteremA" targetEndRoleName="MenutAdU" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e4bcc9b7-2a2e-4edf-839e-69169963e043" LastKnownName="MenutAdU" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="47c501a4-9111-4998-972d-33c7a5fc6f32" name="EtteremA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d0dda86d-0ec3-40f0-abeb-af50789f13b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="747bf429-5270-4d49-b8e3-789780dc8876" name="MenutAdU" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9c5887e9-f742-487f-b661-3c08d0fc46fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ac048611-8968-4f40-8177-e36faf5789f2" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="c35da72d-162a-4f31-8cc4-b8686d1c8016" name="EtteremValasztasU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9eb01017-9086-44e1-9ad2-85786821b5b2" />
+        <additions>
+          <include Id="28740da9-1d72-4b71-9a0c-0e086688befb">
+            <useCaseMoniker Id="9f3649f8-675d-462d-86db-99790300b3f3" LastKnownName="EtelValasztasU" />
+            <elementDefinition Id="8ba6edf5-aace-435d-8856-af6cc504ed27" />
+          </include>
+          <include Id="d125cbd8-6129-430a-9bcf-63788bd1da28">
+            <useCaseMoniker Id="5028736f-79d7-42d0-a5dd-dd5227080658" LastKnownName="MenuBongeszeseU" />
+            <elementDefinition Id="0f590b5f-f508-47be-aed4-838582cb378a" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9f3649f8-675d-462d-86db-99790300b3f3" name="EtelValasztasU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c35ee7f-66c7-4b11-9fa4-28707d179bc8" />
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5ecda1c3-e76b-4b4d-863b-88e518965daa" name="ItalValasztasU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="462cb583-f006-4bd8-a857-06fbe7484019" />
+        <extendedCases>
+          <extend Id="09292373-8164-4d2a-879f-f209cd532abe">
+            <useCaseMoniker Id="c35da72d-162a-4f31-8cc4-b8686d1c8016" LastKnownName="EtteremValasztasU" />
+            <elementDefinition Id="9a2a6b47-099f-415c-96ce-c81c6d2a66d7" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5028736f-79d7-42d0-a5dd-dd5227080658" name="MenuBongeszeseU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8b744552-a3b9-4301-9910-8877fb2f8ec3" />
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e4bcc9b7-2a2e-4edf-839e-69169963e043" name="MenutAdU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9723d511-2bba-4989-a964-71d31781da5a" />
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ba6a11ad-63d9-48d6-8e05-3d8b7bcec6b0" name="SzallitasiAdatokMegadasaU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="651bb708-ca4f-4827-98c9-4c5fb16757ee" />
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5642f334-ecb1-4dad-bcd1-3490b5d51c32" name="FizetesiAdatokMegadasaU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="36454400-9f41-41e5-8957-72dcec6c03da" />
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="17c29ed2-4c83-49e3-aeae-5b707a398d9e" name="HelysziniFizetesValasztasU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3a8a5385-a399-427f-b0d4-bdd77b189566" />
+        <generalsInternal>
+          <generalization Id="ce2aef8b-4a72-4758-a337-b267b26354f5" isSubstitutable="false">
+            <useCaseMoniker Id="5642f334-ecb1-4dad-bcd1-3490b5d51c32" LastKnownName="FizetesiAdatokMegadasaU" />
+            <elementDefinition Id="67b94949-1cfc-49a0-9353-c4abe0d9114a" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1f701bd8-f268-46de-ae49-7421d42e4305" name="OnlineFizetesU" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2d74a81d-af07-44b4-b092-a21afe0ddae6" />
+        <generalsInternal>
+          <generalization Id="8e1a979d-76dc-446e-ae6d-6d5a4162cd61" isSubstitutable="false">
+            <useCaseMoniker Id="5642f334-ecb1-4dad-bcd1-3490b5d51c32" LastKnownName="FizetesiAdatokMegadasaU" />
+            <elementDefinition Id="30aebcc5-f5a6-41d4-8856-237ee8f2b9d4" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="21ac9f8e-f78d-4a83-b7f2-364a364ed93d" LastKnownName="Rendszer" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="6eb612b1-3f98-45fe-acca-a8a6fb5eb257" name="BankA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="86dc7b53-4838-4b7f-a85e-c2573ba93b66" />
+        <targetEnds>
+          <association Id="9ade83f7-0563-4be9-8e1c-5ae00db115a1" isDerived="false" sourceEndRoleName="BankA" targetEndRoleName="OnlineFizetesU" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1f701bd8-f268-46de-ae49-7421d42e4305" LastKnownName="OnlineFizetesU" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cefb66ae-9afd-48d8-ae8b-3ae5a40e21e6" name="BankA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cc59ea37-398f-4506-93cc-b4028338ae24" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="381690a1-b9ad-44b4-b048-964b3fe6e697" name="OnlineFizetesU" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ee41b4cf-1db1-4058-b9d4-83f5ccb8422f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="92871494-482e-45f3-a26d-94d997bc52d0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="91ff2fa0-6b76-4930-a178-91c0ab27cc99" name="ModelingProject1">
+    <elementDefinition Id="58387b23-f4d0-4cdc-9967-9843f8c7dc52" />
+    <profileInstances>
+      <packageHasProfileInstances Id="376f5e04-7966-4daa-a81e-1d74c83beb1a">
+        <profileInstance Id="844d9652-ec55-4d04-a4f2-fa49073a4735" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="653ed0da-3006-4efb-b8b0-09af635dc281">
+        <profileInstance Id="ca411148-ff21-482b-8c8e-24407a933e2e" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

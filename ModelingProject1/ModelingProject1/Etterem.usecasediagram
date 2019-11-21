@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7305f49a-80d0-4d86-9d09-fd44db304af4" name="Aktorok" linkedPackageId="5c2d4b13-5443-4775-aa44-3923e8e9eaf9" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="f4e9de41-21bb-4868-a912-6a991584d3f3" name="VendegA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cc77c25a-cdbf-4fbe-a216-92582c07a993" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="7a3432ad-5eaa-475a-93fa-0c5a302ad5fa" name="ItalosPincerA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a1361461-288e-45ab-8991-4711e4b319ae" />
+        <generalsInternal>
+          <generalization Id="d92b5f7a-7456-4713-875c-89da164e8e38" isSubstitutable="false">
+            <actorMoniker Id="f1a666e9-d84f-4f8f-ad75-708bb929c177" LastKnownName="KiszolgalokA" />
+            <elementDefinition Id="bc52d4f2-ec12-46d3-893e-9bc0ce005eaa" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a74e406b-27cb-4ede-800e-6eafe5a1c330" name="SzakacsA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="78e89a96-3c30-44b5-8aa1-61c639615da0" />
+        <generalsInternal>
+          <generalization Id="bd226f1f-6fa6-4197-a66b-3e34388af966" isSubstitutable="false">
+            <actorMoniker Id="87e12b5a-51e3-48a4-9e8e-343b08dc932e" LastKnownName="ElkészitoA" />
+            <elementDefinition Id="81cca0ca-49a2-490b-bcd8-ec5c4af5b844" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="cf80c465-bcbd-4459-ab8e-7e80676d24c4" name="SzallitoA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ee1cfe51-c683-48f6-90cc-481f278a0c41" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="8eb994b1-9b9c-441d-af33-31e88f8e0c6c" name="TulajA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c31de4b7-63c6-4652-bb76-906781dbac09" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="94eb8c51-1cda-4de3-90ca-7f4eaa6b76d1" name="PultosA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bdad1f2a-863c-407c-87eb-0ecbe57697f0" />
+        <generalsInternal>
+          <generalization Id="c9b498ef-aabb-4414-9642-868bca71d671" isSubstitutable="false">
+            <actorMoniker Id="87e12b5a-51e3-48a4-9e8e-343b08dc932e" LastKnownName="ElkészitoA" />
+            <elementDefinition Id="3ded270b-fce3-49aa-8490-8184c61d603b" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ef816012-e668-4932-85f4-ffd5e0d30329" name="BankA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="86dc7b53-4838-4b7f-a85e-c2573ba93b66" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="87e12b5a-51e3-48a4-9e8e-343b08dc932e" name="ElkészitoA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6d5acf08-1522-4b98-b687-767635fb73ae" />
+        <generalsInternal>
+          <generalization Id="1694b0ad-22f2-4c0f-afc7-c2f177596cc5" isSubstitutable="false">
+            <actorMoniker Id="52a4e8d6-1fb4-40d5-9a4f-b342db44c6b2" LastKnownName="SzemelyzetA" />
+            <elementDefinition Id="e5220324-9493-4fb4-9e41-47d4bb4f01de" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f335d937-a8d4-40dd-bf23-35ab479dd700" name="EtelesPincerA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0c832cd7-b4fc-466d-9697-c4f07e77418a" />
+        <generalsInternal>
+          <generalization Id="b596cd1b-41f6-47da-9922-5e78fe5058eb" isSubstitutable="false">
+            <actorMoniker Id="f1a666e9-d84f-4f8f-ad75-708bb929c177" LastKnownName="KiszolgalokA" />
+            <elementDefinition Id="8f61f565-7635-4e97-954c-dff4ad125e4c" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f1a666e9-d84f-4f8f-ad75-708bb929c177" name="KiszolgalokA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6d7331c1-bdc7-496d-a554-65f0230a8c85" />
+        <generalsInternal>
+          <generalization Id="59a3136b-22cb-49a9-bbd6-3c0917251aec" isSubstitutable="false">
+            <actorMoniker Id="52a4e8d6-1fb4-40d5-9a4f-b342db44c6b2" LastKnownName="SzemelyzetA" />
+            <elementDefinition Id="93aa3840-93e4-48cb-8238-d3ecd772e3b4" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="52a4e8d6-1fb4-40d5-9a4f-b342db44c6b2" name="SzemelyzetA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b724106-5ce1-4339-b105-b3ce63f09648" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="0ce1a115-d99b-4e64-808c-74d300e59753" name="EtteremA" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="59818886-1aad-4ec7-9147-eb38379b1cdb" />
+        <targetEnds>
+          <association Id="b864ebec-825f-44a8-b119-845612c98a0d" isDerived="false" sourceEndRoleName="EtteremA" targetEndRoleName="SzemelyzetA" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="52a4e8d6-1fb4-40d5-9a4f-b342db44c6b2" LastKnownName="SzemelyzetA" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="20d1623b-0ff3-401c-a23b-a6087a0a6913" name="EtteremA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fa5a57bf-52ab-4108-a11d-c40db3c90d43" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe11ec49-06a2-4614-9532-e66ad926696b" name="SzemelyzetA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e14b370d-732d-44d2-8d18-feccdaae25e4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d6dfcf08-f90a-45e6-9674-bebd109dd901" />
+          </association>
+          <association Id="57c19f92-3fe9-4a07-9d2c-4c2e9ec61d7b" isDerived="false" sourceEndRoleName="EtteremA" targetEndRoleName="TulajA" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="8eb994b1-9b9c-441d-af33-31e88f8e0c6c" LastKnownName="TulajA" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="36576b7c-8365-4d1b-8e7e-06b49defe3ee" name="EtteremA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a4ccc03c-3ef6-4a78-ac7d-cd3abf3bde5a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1a472f74-198f-4f8e-8658-00a56a118481" name="TulajA" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="8a103368-d369-447f-86b7-6411190f05c7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="31602b4c-6180-4c63-8cd3-c78c98cc0248" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="8a7fa98a-43c5-4f38-88ce-4f7a65d632e1" name="FizetoPincer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7bedb10d-aa1b-4702-b6b3-4d708dc4b92a" />
+        <generalsInternal>
+          <generalization Id="d4cafdab-5cc7-4446-bdb9-e30d0d76023e" isSubstitutable="false">
+            <actorMoniker Id="f1a666e9-d84f-4f8f-ad75-708bb929c177" LastKnownName="KiszolgalokA" />
+            <elementDefinition Id="315a6845-53d8-41cc-8db6-20e3af7185f1" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="5c2d4b13-5443-4775-aa44-3923e8e9eaf9" name="ModelingProject1">
+    <elementDefinition Id="58387b23-f4d0-4cdc-9967-9843f8c7dc52" />
+    <profileInstances>
+      <packageHasProfileInstances Id="618b3d6f-3df0-4cf5-92b4-4a934e2271e5">
+        <profileInstance Id="f4401fb0-752c-4613-84dd-3b3e7ab9bf04" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f5cc4889-f134-4e13-9dc0-2d0e5f9951fc">
+        <profileInstance Id="d8940e55-0d61-4218-b944-f505a5a8af50" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

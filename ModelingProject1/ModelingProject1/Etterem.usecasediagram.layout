@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Etterem">
+  <useCaseModelRootMoniker Id="7305f49a-80d0-4d86-9d09-fd44db304af4" />
+  <nestedChildShapes>
+    <actorShape Id="1b8024e1-e6fd-4bda-85d1-0bedac1a681d" absoluteBounds="8.75, 3.875, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="f4e9de41-21bb-4868-a912-6a991584d3f3" LastKnownName="VendegA" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="89c9bcd8-d967-46c9-8f8b-5062ce85a4f2" absoluteBounds="2.875, 4.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="7a3432ad-5eaa-475a-93fa-0c5a302ad5fa" LastKnownName="ItalosPincerA" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="23453614-1ce0-4b7e-b7f0-a6ab4e375283" absoluteBounds="1.625, 4.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="a74e406b-27cb-4ede-800e-6eafe5a1c330" LastKnownName="SzakacsA" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="149da7f8-feb0-4cd6-b06e-a41d4940ebdd" absoluteBounds="6.625, 2.625, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="cf80c465-bcbd-4459-ab8e-7e80676d24c4" LastKnownName="SzallitoA" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="2325df1a-db70-47ad-900f-b0a82484f7cb" absoluteBounds="5.5, 1, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="8eb994b1-9b9c-441d-af33-31e88f8e0c6c" LastKnownName="TulajA" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="85830d4d-ec87-4e9c-9053-b0a292212fb5" absoluteBounds="0.5, 4.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="94eb8c51-1cda-4de3-90ca-7f4eaa6b76d1" LastKnownName="PultosA" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="8cdb2062-906a-4a02-8808-20a5c62e98bd" absoluteBounds="7.75, 1, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="ef816012-e668-4932-85f4-ffd5e0d30329" LastKnownName="BankA" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="0bd1691c-07f0-4417-82ec-ae610c903e58" absoluteBounds="0.625, 2.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="87e12b5a-51e3-48a4-9e8e-343b08dc932e" LastKnownName="ElkészitoA" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseGeneralizationConnector edgePoints="[(0.765625 : 4.5); (0.859375 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="c9b498ef-aabb-4414-9642-868bca71d671" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="85830d4d-ec87-4e9c-9053-b0a292212fb5" />
+        <actorShapeMoniker Id="0bd1691c-07f0-4417-82ec-ae610c903e58" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <useCaseGeneralizationConnector edgePoints="[(1.75 : 4.5); (1 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="bd226f1f-6fa6-4197-a66b-3e34388af966" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="23453614-1ce0-4b7e-b7f0-a6ab4e375283" />
+        <actorShapeMoniker Id="0bd1691c-07f0-4417-82ec-ae610c903e58" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <actorShape Id="71a72185-c289-4de5-9189-1971f90d12d2" absoluteBounds="4.25, 4.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="f335d937-a8d4-40dd-bf23-35ab479dd700" LastKnownName="EtelesPincerA" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="417d3eab-01e1-4bf4-b80e-2eac8354d24b" absoluteBounds="3.25, 2.625, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="f1a666e9-d84f-4f8f-ad75-708bb929c177" LastKnownName="KiszolgalokA" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseGeneralizationConnector edgePoints="[(3.175 : 4.5); (3.45 : 3.125)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="d92b5f7a-7456-4713-875c-89da164e8e38" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="89c9bcd8-d967-46c9-8f8b-5062ce85a4f2" />
+        <actorShapeMoniker Id="417d3eab-01e1-4bf4-b80e-2eac8354d24b" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <useCaseGeneralizationConnector edgePoints="[(4.36666666666667 : 4.5); (3.63333333333333 : 3.125)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="b596cd1b-41f6-47da-9922-5e78fe5058eb" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="71a72185-c289-4de5-9189-1971f90d12d2" />
+        <actorShapeMoniker Id="417d3eab-01e1-4bf4-b80e-2eac8354d24b" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <actorShape Id="075be557-8500-43cb-b815-155ba06e4194" absoluteBounds="2, 1.25, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="52a4e8d6-1fb4-40d5-9a4f-b342db44c6b2" LastKnownName="SzemelyzetA" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseGeneralizationConnector edgePoints="[(1.125 : 2.52272727272727); (2 : 1.72727272727273)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="1694b0ad-22f2-4c0f-afc7-c2f177596cc5" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="0bd1691c-07f0-4417-82ec-ae610c903e58" />
+        <actorShapeMoniker Id="075be557-8500-43cb-b815-155ba06e4194" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <useCaseGeneralizationConnector edgePoints="[(3.27272727272727 : 2.625); (2.47727272727273 : 1.75)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="59a3136b-22cb-49a9-bbd6-3c0917251aec" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="417d3eab-01e1-4bf4-b80e-2eac8354d24b" />
+        <actorShapeMoniker Id="075be557-8500-43cb-b815-155ba06e4194" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <actorShape Id="6566a74a-a8d8-4f08-8721-45fa5d12c163" absoluteBounds="3.75, 0.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="0ce1a115-d99b-4e64-808c-74d300e59753" LastKnownName="EtteremA" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(3.75 : 1.07142857142857); (2.5 : 1.42857142857143)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b864ebec-825f-44a8-b119-845612c98a0d" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6566a74a-a8d8-4f08-8721-45fa5d12c163" />
+        <actorShapeMoniker Id="075be557-8500-43cb-b815-155ba06e4194" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(4.25 : 1.03571428571429); (5.5 : 1.21428571428571)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="57c19f92-3fe9-4a07-9d2c-4c2e9ec61d7b" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6566a74a-a8d8-4f08-8721-45fa5d12c163" />
+        <actorShapeMoniker Id="2325df1a-db70-47ad-900f-b0a82484f7cb" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <actorShape Id="b648d84f-064e-46e5-8cba-35a70a340ac6" absoluteBounds="5.375, 4.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="8a7fa98a-43c5-4f38-88ce-4f7a65d632e1" LastKnownName="FizetoPincer" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseGeneralizationConnector edgePoints="[(5.375 : 4.52941176470588); (3.75 : 3.09558823529412)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="d4cafdab-5cc7-4446-bdb9-e30d0d76023e" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b648d84f-064e-46e5-8cba-35a70a340ac6" />
+        <actorShapeMoniker Id="417d3eab-01e1-4bf4-b80e-2eac8354d24b" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>
